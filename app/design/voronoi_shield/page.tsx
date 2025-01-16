@@ -1,6 +1,4 @@
 
-import Link from 'next/link';
-
 
 export default function Voronoi_shield_Page() {
     return (
