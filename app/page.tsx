@@ -47,11 +47,15 @@ export default function Home() {
 
         <h1>Vision</h1>
         <p>
-          <img src="/home/vision_img.jpg" height="180" alt="vision" />
+          <img src="../home/vision_img.jpg" height="180" alt="vision1" />
+
+          <img src="./home/vision_img.jpg" height="180" alt="vision2" />
+
+          <img src="/home/vision_img.jpg" height="180" alt="vision3" />
 
           <Image
           src="/home/vision_img.jpg"
-          alt="vision"
+          alt="vision4"
           width={180}
           height={180}
           priority
