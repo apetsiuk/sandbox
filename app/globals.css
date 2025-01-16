@@ -1,6 +1,11 @@
 :root {
-  --background: #ffffff;
+  --background: #89d6a4;
   --foreground: #171717;
+  background: linear-gradient(0deg, rgba(142, 142, 149, 0.7007396708683473) 0%, #68afa09a 21%, rgba(255, 255, 255, 0) 100%);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 0px solid #2a7cf7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,8 +22,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  /* color: var(--foreground); */
+  /* background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,4 +44,116 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.grandparent {
+  width: 100%;
+  background-color: #ffffff00;
+  opacity: 1;
+  background-image: radial-gradient(#505050ba 0.9px, #ffffff00 0.9px);
+  background-size: 20px 20px;
+}
+
+.parent {
+  width: 55%;
+  background-color: #ffffffff;
+  color: #333;
+  top: 20px;
+  left: 20px;
+  border: #111 dashed 0px;
+  margin: 30px 80px;
+  padding: 70px;
+  box-shadow: 0px 0px 18px #888888;
+}
+
+.div_bg_image {
+  width: 40%;
+  height: 650px;
+  position: fixed;
+  right: 2%;
+  bottom: 1%;
+  background-image: url("../assets/bg_img_01.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border: 0px solid #f72aa8;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #00ae83;
+}
+
+a {
+  color: #00c896;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  text-align: justify;
+  padding: 10px 0px 40px 0px;
+}
+
+p img {
+  float: left;
+  padding: 0px 10px 0px 0px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 3%;
+}
+
+.column img {
+  float: left;
+  width: 100%;
+  padding: 0px 10px 5px 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+.ap {
+  width: 100%;
+  border: 0px solid red;
+  float: left;
+}
+.ap_user img{
+  float: left;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  margin-right: 30px;
+}
+
+.icons img{
+  float: left;
+  margin-right: 15px;
+}
+
+.ap_keywords{
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  color: #999;
+  border: 0px solid red;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }

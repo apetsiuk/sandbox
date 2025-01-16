@@ -166,3 +166,14 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+
+.grandparent {
+  width: 100%;
+  background-color: #ffffff00;
+  opacity: 1;
+  background-image: radial-gradient(#505050ba 0.9px, #ffffff00 0.9px);
+  background-size: 20px 20px;
+  border: 1px solid #f72a75;
+}

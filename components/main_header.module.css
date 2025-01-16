@@ -1,0 +1,42 @@
+.top_menu {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #474747;
+    z-index: 1;
+  }
+  
+  
+  .top_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    font-family: monospace;
+    font-size: 17px;
+    margin-left: 80px;
+  }
+  
+  .top_menu li {
+    float: left;
+    border-right: #7d7d7d solid 1px;
+    border-left: #7d7d7d solid 1px;
+  }
+  
+  .top_menu li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .top_menu li a:hover {
+    background-color: #000000;
+  }
+  
