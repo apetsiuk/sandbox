@@ -19,7 +19,7 @@ export default function Home() {
 
 
         <div><img src="static_images/ap.jpg" height="200" />
-          <p>Hi, I'm Aliaksei, a PhD in Electrical and Computer Engineering with expertise in Robotics and Control. I am
+          <p>Hi, Im Aliaksei, a PhD in Electrical and Computer Engineering with expertise in Robotics and Control. I am
             highly passionate about additive manufacturing, particularly the application of computer vision in this
             field. My experience includes in-depth knowledge of pattern recognition and texture analysis, along with
             hands-on expertise in object segmentation and point cloud processing. I also have a strong background in
