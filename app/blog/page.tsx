@@ -10,7 +10,7 @@ export default function Blog_Page() {
                 <div className="row">
                     <div className="column">
                         <h4>Evolution of Image Segmentation Methods (2022): 100+ Architectures</h4>
-                        <img src="/blog/blog_1.png" />
+                        <img src="./blog/blog_1.png" />
                         <p>To strengthen the capabilities of AM technology, it is necessary to optimize the process of preparing a part
                             for 3-D printing (slicing) and provide analysis systems that can detect and minimize the impact of emerging defects.
                             The increasing complexity of geometric shapes and the number of materials used require optimization of
@@ -18,7 +18,7 @@ export default function Blog_Page() {
                     </div>
                     <div className="column">
                         <h4>LeetCode: Interview question statistics & how to run your own analytical report in 2022</h4>
-                        <img src="/blog/blog_2.png" />
+                        <img src="./blog/blog_2.png" />
                         <p>To strengthen the capabilities of AM technology, it is necessary to optimize the process of preparing a part
                             for 3-D printing (slicing) and provide analysis systems that can detect and minimize the impact of emerging defects.
                             The increasing complexity of geometric shapes and the number of materials used require optimization of

@@ -20,18 +20,18 @@ export default function Home() {
 
           <div className="icons">
             <p>
-              <Link href="https://www.linkedin.com/in/apetsiuk/"><img src="/icons/simple-icons--linkedin.png"
+              <Link href="https://www.linkedin.com/in/apetsiuk/"><img src="./icons/simple-icons--linkedin.png"
                 height="20" /></Link>
-              <Link href="https://github.com/apetsiuk"><img src="/icons/cib--github.png" height="20" /></Link>
+              <Link href="https://github.com/apetsiuk"><img src="./icons/cib--github.png" height="20" /></Link>
               <Link href="https://scholar.google.ca/citations?user=XB6nkzsAAAAJ&hl=en&oi=ao"><img
-                src="/icons/academicons--google-scholar.png" height="20" /></Link>
+                src="./icons/academicons--google-scholar.png" height="20" /></Link>
               <Link href="https://www.researchgate.net/profile/Aliaksei-Petsiuk"><img
-                src="/icons/simple-icons--researchgate.png" height="20" /></Link>
+                src="./icons/simple-icons--researchgate.png" height="20" /></Link>
               <Link href="https://mtu.academia.edu/AliakseiPetsiuk"><img src="/icons/simple-icons--academia.png"
                 height="20" /></Link>
               <Link href="https://www.printables.com/@apetsiuk_2192484"><img
-                src="/icons/simple-icons--printables.png" height="20" /></Link>
-              <Link href="https://medium.com/@apetsiuk"><img src="/icons/lineicons--medium.png"
+                src="./icons/simple-icons--printables.png" height="20" /></Link>
+              <Link href="https://medium.com/@apetsiuk"><img src="./icons/lineicons--medium.png"
                 height="20" /></Link>
               <br />
             </p>
@@ -47,11 +47,7 @@ export default function Home() {
 
         <h1>Vision</h1>
         <p>
-          <img src="../home/vision_img.jpg" height="180" alt="vision1" />
-
           <img src="./home/vision_img.jpg" height="180" alt="vision2" />
-
-          <img src="/home/vision_img.jpg" height="180" alt="vision3" />
 
           <Image
           src="/home/vision_img.jpg"
@@ -79,7 +75,7 @@ export default function Home() {
           The increasing complexity of geometric shapes and the number of materials used require optimization of
           fabrication processes and layer-by-layer monitoring of production processes for timely response.</p>
 
-        <img src="/home/research_img.png" width='100%' />
+        <img src="./home/research_img.png" width='100%' />
 
 
         <p>This work presents several conceptually new approaches to FFF AM 3-D printer work volume monitoring and anomaly

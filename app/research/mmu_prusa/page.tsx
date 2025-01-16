@@ -9,7 +9,7 @@ export default function MMU_Prusa_Page() {
 
 
                 <h1>Multi-color Fabrication Optimization</h1>
-                <img src="/research/all_in_one.png" height='180' />
+                <img src="./research/all_in_one.png" height='180' />
                 <p>The future of advanced additive manufacturing (AM) envisions a transformative era where precision, efficiency, and scalability redefine how we design and produce components across industries. Emerging technologies such as artificial intelligence, machine learning, and computer vision will enable real-time quality assurance, adaptive process control, and optimized material usage. Integration of augmented reality and digital twins will enhance design visualization, streamline prototyping, and facilitate predictive maintenance of AM systems. Advanced materials, including multi-functional composites and bio-compatible polymers, will expand the scope of applications, from aerospace and healthcare to construction and consumer goods. Furthermore, the synergy of AM with intelligent sensor networks and IoT platforms promises a shift toward fully automated, decentralized, and sustainable manufacturing ecosystems. This future vision underscores the pivotal role of additive manufacturing in driving innovation, fostering sustainability, and enabling complex designs that were once unimaginable.</p>
 
             

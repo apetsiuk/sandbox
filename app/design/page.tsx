@@ -14,13 +14,13 @@ export default function Design_Page() {
                 <div className="row">
                     <div className="column">
                         <Link href="/design/voronoi_shield"><h2>Voronoi Shield</h2></Link>
-                        <img src="/design/bunny_voronoi.png" />
+                        <img src="./design/bunny_voronoi.png" />
                         <p>A generative design implemented in Blender using geometry nodes. The model consists of two layers
                             of voronoi shield and a low-poly fluorescent core. The model can be parametrized based on user input.</p>
                     </div>
                     <div className="column">
                         <h2>Barcode Bunny</h2>
-                        <img src="/design/bunny_barcode.png" />
+                        <img src="./design/bunny_barcode.png" />
                         <p>To strengthen the capabilities of AM technology, it is necessary to optimize the process of
                             preparing a part
                             for 3-D printing (slicing) and provide analysis systems that can detect and minimize the impact
@@ -35,7 +35,7 @@ export default function Design_Page() {
                 <div className="row">
                     <div className="column">
                         <h2>TSP Bunny</h2>
-                        <img src="/design/bunny_tsp.png" />
+                        <img src="./design/bunny_tsp.png" />
                         <p>To strengthen the capabilities of AM technology, it is necessary to optimize the process of
                             preparing a part
                             for 3-D printing (slicing) and provide analysis systems that can detect and minimize the impact
@@ -47,7 +47,7 @@ export default function Design_Page() {
                     </div>
                     <div className="column">
                         <h2>Crystal Bunny</h2>
-                        <img src="/design/bunny_sharp.png" />
+                        <img src="./design/bunny_sharp.png" />
                         <p>To strengthen the capabilities of AM technology, it is necessary to optimize the process of
                             preparing a part
                             for 3-D printing (slicing) and provide analysis systems that can detect and minimize the impact
