@@ -46,7 +46,7 @@ export default function Home() {
 
         <h1>Vision</h1>
         <p>
-          <img src="/home/vision_img.jpg" height="180" />
+          <img src="/home/vision_img.jpg" height="180" alt="vision" />
           The future of advanced additive manufacturing (AM) envisions a transformative era where precision, efficiency,
           and scalability redefine how we design and produce components across industries. Emerging technologies such as
           artificial intelligence, machine learning, and computer vision will enable real-time quality assurance, adaptive
