@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import logoImg from '@/assets/ap_logo.jpg';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -47,6 +48,14 @@ export default function Home() {
         <h1>Vision</h1>
         <p>
           <img src="/home/vision_img.jpg" height="180" alt="vision" />
+
+          <Image
+          src="/home/vision_img.jpg"
+          alt="vision"
+          width={180}
+          height={180}
+          priority
+        />
           The future of advanced additive manufacturing (AM) envisions a transformative era where precision, efficiency,
           and scalability redefine how we design and produce components across industries. Emerging technologies such as
           artificial intelligence, machine learning, and computer vision will enable real-time quality assurance, adaptive
