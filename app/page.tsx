@@ -27,11 +27,13 @@ export default function Home() {
                 src="./icons/academicons--google-scholar.png" height="20" /></Link>
               <Link href="https://www.researchgate.net/profile/Aliaksei-Petsiuk"><img
                 src="./icons/simple-icons--researchgate.png" height="20" /></Link>
-              <Link href="https://mtu.academia.edu/AliakseiPetsiuk"><img src="/icons/simple-icons--academia.png"
+              <Link href="https://mtu.academia.edu/AliakseiPetsiuk"><img src="./icons/simple-icons--academia.png"
                 height="20" /></Link>
               <Link href="https://www.printables.com/@apetsiuk_2192484"><img
                 src="./icons/simple-icons--printables.png" height="20" /></Link>
               <Link href="https://medium.com/@apetsiuk"><img src="./icons/lineicons--medium.png"
+                height="20" /></Link>
+                <Link href="https://medium.com/@apetsiuk"><img src="./icons/akar-icons--instagram-fill.png"
                 height="20" /></Link>
               <br />
             </p>
